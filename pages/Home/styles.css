@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2c3e50;
+}
+
+.logo {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.list-body {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-item {
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight:700;
+
+}
+
+.list-item:hover {
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer
+}
+
+.banner {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 100%;
+    height: 60%
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.subtxt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.group {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    flex-direction: row;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #9b59b6; 
+    -webkit-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+}
+
+.news2 {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    flex-direction: row;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: red; 
+    -webkit-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+}
+
+.viewImagem {
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    min-width: 500px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 60%;
+    height: 90%;
+}
+
+.txt {
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.title-status {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black
+}
+
+.podcast {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.description {
+    font-size: 20px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.player {
+    margin-top: 15px;
+}
+
+.pe {
+    display: flex;
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+    background-color: #2c3e50;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.coracao {
+    width: 20px;
+    height: 20px;
+}

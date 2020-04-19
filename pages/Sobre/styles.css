@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2c3e50;
+}
+
+.logo {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.list-body {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-item {
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight:700;
+
+}
+
+.list-item:hover {
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer
+}
+
+
+.content {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtxt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.content-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-content {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    flex-direction: row;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #9b59b6; 
+    -webkit-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.view-ft {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft {
+    border-radius: 50%;
+    width: 200px;
+    transition: all 0.5s
+}
+
+.ft:hover {
+    width: 250px;
+    border-radius: 20%;
+    transition: all 0.5s;
+}
+
+.textoft {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.view-txt {
+    margin: 30px;
+}
+
+.view-txt2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.nome {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black
+}
+
+.description {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: grey
+}
+
+.dd {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.destaque {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    color: 'black'
+}
+
+.body-content2 {
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: blue; 
+    -webkit-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black
+}
+
+.dash {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-skills {
+    display: flex;
+    margin: 20px;
+    display: flex;
+    flex:1 1 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    -webkit-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    box-shadow: 17px 10px 45px 0px rgba(0,0,0,0.14);
+    transition: all 0.5s;
+    
+}
+
+.card-skills:hover {
+    width: 250px;
+    border-radius: 20%;
+    transition: all 0.5s;
+}
+
+
+.tec-img {
+    width: 55%;
+    height: 45%;
+}
+
+.tec-status {
+    margin-top: 10px;
+    color: #2ecc71;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.pe {
+    display: flex;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: #2c3e50;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+}
+
+.coracao {
+    width: 20px;
+    height: 20px;
+}
